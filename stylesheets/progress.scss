@@ -1,0 +1,23 @@
+body {
+	background: url('../images/progress.jpg') no-repeat top center;
+}
+
+#mainContent {
+	font-family: "Courier New";
+	color: black;
+	margin: 200px auto;
+	width: 700px;
+	height: 500px;
+	background-color: #44dcff;
+	#description {
+		padding-top: 20px;
+		margin: 25px;
+	}
+	h3 {
+		margin: 5px;
+	}
+	p {
+		margin: 5px;
+		font-size: 12px;
+	}
+}

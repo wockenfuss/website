@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+
+	<title>hEVOBEKOHEHaBNCTHNhECTBO</title>
+
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" href="stylesheets/stylesheet.css" type="text/css" />
+	<link href='http://fonts.googleapis.com/css?family=Monda' rel='stylesheet' type='text/css'>
+
+		<link href='http://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Walter+Turncoat' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Delius' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Reenie+Beanie' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Sue+Ellen+Francisco|Poiret+One|Almendra+Display|Quicksand|Londrina+Sketch|Bubbler+One' rel='stylesheet' type='text/css'>
+
+
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script type="text/javascript" src="javascripts/scripts.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div id="bkd-overlay">
+		<header id="header-overlay">
+		</header>
+		<section id="mainContainer">
+
+			<nav id="navbar">
+				<a href="#">
+					<div class="bar" id="projects">
+						<p class="trans75">Projects</p>
+					</div>
+				</a>
+				<a href="#" class="invisible">
+					<div class="bar subnav">
+						<p class="trans75" data-value="#live">Live Performance</p>
+					</div>
+				</a>	
+				<a href="#" class="invisible">
+					<div class="bar subnav">
+						<p class="trans75" data-value="#film">Film/Video</p>
+					</div>
+				</a>		
+				<a href="#" class="invisible">
+					<div class="bar subnav">
+						<p class="trans75" data-value="#web">Web</p>
+					</div>
+				</a>			
+			</nav>
+
+
+
+			<div id="mainContent">
+				<div class="list invisible" id="web">
+					<div>
+						<a href="striations" target="_blank">Striations</a>
+						<p>Inspired by Gerhard Richter. Refreshing the browser varies the color patterns.</p>
+					</div>
+				</div>
+
+				<div class="list invisible" id="film">
+					<div>
+						<a href="mysterium">Mysterium Cosmographicum</a>
+						<p>approx. 90 min. Hybrid live performance/video essay</p>
+					</div>
+	    		<div>
+	    			<a href="progress" target="_blank">Work in Progress </a>
+	    			<p>13 min., video</p>
+					</div>
+	    		<div>
+	    			<a href="#">Video Proposal for a Film to be Titled "Yearbook"</a>
+	    			<p>365 seconds, video</p>
+					</div>
+
+	    		<div>
+	    			<a href="pity">I Pity the Fool</a>
+	    			<p>83 min., Super 8 presented on video</p>
+					</div>
+	    		<div>
+	    			<a href="nightflight">Night Flight</a>
+	    			<p>9 min., Super 8/DV</p>
+					</div>
+	    		<div>
+	    			<a href="ash">Ash Wednesday</a>
+	    			<p>70 min., video</p>
+					</div>
+	    		<div>
+	    			<a href="untitled">Untitled</a>
+	    			<p>90 min., 16mm</p>
+					</div>
+				</div>
+
+				<div class="list invisible" id="live">
+	    		<div>
+	    			<a href="sinewaves">Live Performance for Video, Sine Waves and Samples</a>
+	    			<p>approx. 30 min.</p>
+					</div>
+	    		<div>
+	    			<a href="indomitable">The Indomitable Human Spirit</a>
+	    			<p>approx. 25 min.</p>
+					</div>
+				</div>
+
+				<div id="gifImage">
+					<div class="textContainer trans10">
+						<div id="twitter-feed">
+						</div>
+					</div>
+				</div>
+			</div> <!-- main content -->
+		</section> <!-- main container -->
+	</div> <!-- bkd overlay -->
+	<footer>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,98 @@
+$font: "Courier New";
+
+body {
+	background: url('../images/mysteriumBackground.jpg') no-repeat top center;
+	min-height: 1000px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	&:hover {
+		color: #eecf00;
+	}
+}
+
+#nav {
+	font-family: "Courier New";
+	font-size: 10pt;
+	width: 900px;
+	display: block;
+	height: 50px;
+	margin: 210px auto 0 auto;
+	li {
+
+		list-style: none;
+		a {
+			float: left;
+			margin: 0 20px;
+		}
+	}
+}
+
+#mainContent {
+	width: 800px;
+	margin: 0 auto;
+	/*background: white;*/
+}
+
+div {
+	color: white;
+}
+
+#rightContent {
+	float: left;
+	margin-top: 210px;
+	margin-left: 50px;
+	width: 550px;
+}
+
+#description {
+	display: none;
+}
+
+#essay {
+	display: none;
+	height: 500px;
+	overflow: auto;
+}
+
+#mainContent {
+	font-family: $font;
+	font-size: 10pt;
+	#rightContent {
+
+		#screenings {
+			display: none;
+			width: 550px;
+			margin-left: 45px;
+			p {
+				margin: 0px;
+				/*line-height: 0ex;*/
+			}
+			div {
+				padding: 8px 0;
+			}
+			em {
+				margin-left: 15px;
+			}
+		}
+	}
+}
+
+#video {
+	display: none;
+}
+
+#leftContent {
+	float: left;
+	width: 150px;
+	margin-top: 275px;
+	text-align: right;
+}
+#chapterNav {
+	list-style: none;
+	li {
+		margin-top: 20px;
+	}
+}

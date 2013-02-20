@@ -1,0 +1,170 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+
+	<title>Mysterium Cosmographicum</title>
+
+	<!-- <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" /> -->
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http:/ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="javascripts/mysterium.js"></script>
+	<link rel="stylesheet" href="stylesheets/mysterium.css" type="text/css" />
+<!-- 		<link href='http://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Walter+Turncoat' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Delius' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Reenie+Beanie' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Sue+Ellen+Francisco|Poiret+One|Almendra+Display|Quicksand|Londrina+Sketch|Bubbler+One' rel='stylesheet' type='text/css'> -->
+
+	<!--[if lt IE 9]>
+		<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div id="nav">
+		<ul>
+			<li>
+				<a href="#">Description</a>
+			</li>
+			<li>
+				<a href="#">Mike Hoolboom essay</a>
+			</li>
+			<li>
+				<a href="#">Screenings</a>
+			</li>
+			<li>
+				<a href="#">Live Video Excerpts</a>
+			</li>
+			<li>
+				<a href="#">Distribution</a>
+			</li>
+		</ul>
+	</div>
+		
+	<div id="mainContent">
+		<div id="leftContent">
+			<ul id="chapterNav">
+				<li>
+					<a href="prognosticator">Chapter 1: The Prognosticator</a>
+				</li>
+				<li>
+					<a href="impossibility">Chapter 2: The Physical Impossibility of Life in the Mind of Someone Dead</a>
+				</li>
+				<li>
+					<a href="ouroboros">Chapter 3: Ouroboros: Music of the Spheres</a>
+				</li>
+				<li>
+					<a href="index.html">Back to projects</a>
+				</li>
+			</ul>
+		</div>	
+		<div id="rightContent">
+			<div id="description">
+				<p><em>Mysterium Cosmographicum</em> – a comedy in three parts<br>
+					live video performance, approximately 90 minutes
+					2011</p>
+
+				<p>It has been said that the manufacturing industry in the United States has declined precipitously. Automobile factories, steel mills, textile plants have closed, their activities shipped offshore to more pollute-able climes, environments conducive to cheaper labor. Mysterium Cosmographicum, a 3-part video essay and performance incorporating materials culled from music videos, documentaries, movies, YouTube and other sources from the cultural zeitgeist, argues against this assertion, suggesting that manufacturing is indeed alive and well in the United States, the world's leading exporter of emotional catharsis.</p>
+
+				<p>In this defining work of the Hoser Formalist genre, materials appropriated from the culture industry are flushed through a range of custom-designed software tools, digested and manipulated by video game controllers and rendered into a burbling digital stew exploring the nature of knowledge, belief, delusion, and emotion. "I can't live if living is without you," he said, as his tear-stained cheek glistened in the glare of the klieg lights. Slowly, his finger tightened around the trigger . . . .</p>
+
+				<p><em>"As an internet trolling, black-metal-loving, post-suburbanite, Brent Coughenour scrapes out the media entrails of a godless digital culture, looking for signs of what might have been named sacred, but that today appears as hacker code or masculine brio templates . . . . Call it a science fiction dystopia of the present. A ghost of a protest still shaking its rattle deep inside the machine, offering the disused or under-looked traditions of the avant-garde as a way out of the endless feedback loop that appears as a parody of infinity. Transcendence may be a thing of the past, but not dissent. Turn on, tune in, and keep cutting. There are many ways left to say no."</em> – Mike Hoolboom</p>
+			</div>
+			<div id="essay">
+				<p>from the catalog for the Fall 2011 Mary Nohl Fellowship For Individual Artists exhibition</p>
+
+				<p>My Big Fat Avant-Garde Movie: Notes on Brent Coughenour’s Mysterium Cosmographicum</p>
+
+				<p>Every kind of making can be found today, and often in great abundance. There are roomfuls of new genres, or genre hybrids, like diary fictional essays, or cold wave post-op nature scans. And yet. There are some makers whose work defies even these increasingly elastic categories. Call it outsider art made by those in the know. Hoser formalism. The prime example may be Milwaukee’s Brent Coughenour.</p>
+
+				<p>Johannes Kepler published an astronomy book under the title Mysterium Cosmographicum back in 1596, and roughly translated it means “Cosmic Mystery” or “The Secret of the World.” He imagined that math could define the underlying order of the universe; it was at once an expression of divine will, and an instrument by which we apprehend and understand that will. As an internet trolling, black-metal-loving, post-suburbanite, Brent scrapes out the media entrails of a godless digital culture, looking for signs of what might have been named sacred, but that today appears as hacker code or masculine brio templates.</p>
+
+				<p>The Prognosticator (or, We Are All Pythagoreans Now) is part science fair project, part avant-showroom display. It takes up thorny questions of creativity, inquiring into the relations between nature and culture. Or between imagination and math. Hysterical anti-computer tirades (“It’s the new golden calf”) rub shoulders with a doctor who claims that music’s divine harmonics are medicine, his original talking head replaced with a devil’s face. Are computers the new face of spiritual longing? Its systems and programs devised to channel every human effort? Colour flicker fields, planetary orbits, and musical computer code present themselves in a succession of vignettes. The movie closes with an extended shot showing the entrance to a building with three doors on display. Two are locked, and these two are invariably tried, before the many visitors finally open the last door. It’s as if we’re watching a science experiment play out. The system works all right, unfortunately all it demonstrates is the system itself working.</p>
+
+
+				<p>The Physical Impossibility of Life in the Mind of Someone Dead turns around Badfinger’s endless chart topper Without You. Penned by a pair of musicians with girlfriend distress, and relegated to the back end of an early 70s record, it was recovered by no fewer than 180 artists who turned it into a reliable hit machine. But the cost of success proved too much for the men who wrote “I can’t live, if living is without you,” and both writers committed suicide within a decade of the song’s initial delivery. Coughenour lays out this tragedy in a series of kitsch maneuvers, reaching for the high notes in a deliriously toxic cocktail of low-brow, mass culture manias.</p> 
+
+				<p>The Physical Impossibility proceeds in an interruptive, channel surfing mélange of Internet moments, science docs and Hollywood excerpts. It is a sideways essay about masculinity, or at least, a preening, forever ejaculating, heart in my mouth, shouted-out-loud maleness whose feelings (too long deferred or projected onto any girlfriend-mother that happens to be around) can at last be expressed. I feel so bad I feel good. Or else: I’m dying, can’t you see that? Can’t you help me? </p>
+
+				<p>How do men appear in Brent’s potpourri of received wisdoms? His sampling of available models offer viral media templates that are predictably lonely, haunted and violent until they reach out of their man-cave and acknowledge that they are sharing the world with another beating heart. If the isolation is a routine, another learned response, so is the breaking of that isolation, hence the prolix use of media avatars. The pictures are us, so why not just reach for the most gruesomely familiar examples and lather up these contact narratives (between lonely detectives and their loving waiting spouses) with full-on kitsch crescendos and oral sequins? John Travolta hugs Joan Allen in a homestead reunion. Tom Cruise hugs a mensch on the street. Sylvester Stallone empties machine gun rounds into a computer-filled warehouse in an ecstasy of auto-erotic release. I am an army of one, forever battling invisible enemies.</p>
+
+				<p>Coughenour returns again and again to Badfinger’s original chorus, which has the two pre-suicide guitarists chirping, “I can’t live,” in an infernal loop. Here is the death drive given shape as oral prophecy, but it is also the kernel of the gloriously shameful too-muchness of a hit song that was still waiting to happen. It would take Harry Nilsson’s marzipan orchestral cover version to propel it to the top of the charts, and crucially the chorus would be ratcheted up an octave, the notes held and reveled in, and held some more, until the braying sentimentality was monumentalized so that we could all get down and worship it. Badfinger are figured as a kind of Moses, a prophet who might be able to carry the tune of his people, but who would never arrive at the promised land of his own music.</p>
+
+				<p>In an incongruous segue a nature doc feature about humpback whales–beautifully recoloured by the artist – tells us that it is only the males that sing, and “Everyone sings the same song.” Could it really be true? Behind our myriad presentation models - as sons and fathers, students and teachers, employees and party goers, drivers and recreation specialists - are we all busy singing variations on the same song? And what is that song saying? According to Brent, the lines are simple enough: I am dying. With every step, every word out of my mouth, every door I open. “I can’t live.”</p> 
+
+				<p>YouTube moments are dished up after serving time in Brent’s avant-garde hot house, every pixel shuffled and re-landscaped. Amateur cuties set themselves up in front of their computers, belting out Without You in scenes as carefully rehearsed as any award show preening, their canned sadness and off key warblings lend a reliable lo-fi poignancy via multicultural reflections and bedroom framings. These flickering amateur singers are jammed into digital duets, triads, quartets, all of them held in the same aching note. Sandwiched before and after these cover crooners are vicious clips of castration and axe murders. What are we to do with all of these unwanted feelings? Codify them, follow the examples, allow them to become viral instants relayed via Internet chain letter and then replayed in the discomfort of one’s own computer. In these home movie star turns we can follow the mannered tics of a high note taken into the body and then broadcast out again, as part of an interdependent code that Brent extends via abstract colour fields, as if one could unwrap these emotings in a symphony of mood rings.</p>
+
+				<p>The remorseless mainstream splatter gore, the kitsch sentimentality and overwrought emotions, the larger than life demonstrations of adolescent angst, retuned through an avant lens, offers a withering critique of the options available for masculinity. All of the movie’s dizzying electronics and treatments, in fact, a large part of the project of the avant-garde, are conjured as part of a masculine will to power that is deployed in order to channel excessive and unwanted emotings. Art making, it seems, is just another bullet in Stallone’s clip, a means of discharging anti-social rage and self loathing.</p>
+
+				<p>In the third chapter of his trilogy, Ouroboros: Music of the Spheres, a stuttering digital hilarity assures us that when we laugh, the universe hears us. Or at least it offers a picture of listening, which is nearly the same thing. A computer portal of a human absorbs television rappers hard at work programming public imaginations. Simulated teaching modules, a literalization of the boob tube and algorithm paranoias are meted out in rapid succession as viewer avatars take note.</p>
+
+				<p>How does the brain process pictures? What is television, or its bastard child, the computer, actually doing to us? It seems we are engaged in a global experiment that functions like any other religion, requiring adherence and attention, ritual protocols of interactivity, communal simulations, and paradigm-shifting assumptions founded on codes that can be read and redrawn only by an invisible elite. In this curiously reflexive flicker frenzy, Brent holds a digital mirror up to our current obsessions, as the new viral technology of the home computer adopts content from superseded technologies which appear instantly nostalgic: television and movies. These outdated forms have had every narrative hope stripped and repurposed, until what remains are the skeletons of patriarchy, ready to take on new digital flesh. Women are valued only as desirable objects, either physically or emotionally, while men are techno-zombies and self-isolated experts. While the movie’s title announces a “music of the spheres,” this usually refers to planet orbits which were imagined to have a harmonious mathematical interval. But the society of the spectacle has reduced every expressive possibility into digital artifacts waiting to be downloaded. Now there are only screens within screens, as viewers disappear into a virtual universe of borrowed pictures, showing emotions we used to have, offering experiences that were once ours, before the pictures got to them first. What can we do except keeping watching? Even the hippest are only making pictures of this watching. Call it a science fiction dystopia of the present. A ghost of a protest still shaking its rattle deep inside the machine, offering the disused or underlooked traditions of the avant-garde as a way out of the endless feedback loop that appears as a parody of infinity. Transcendence may be a thing of the past, but not dissent. Turn on, tune in, and keep cutting. There are many ways left to say no.</p>
+
+				<p>–Mike Hoolboom</p>
+			</div>
+			<div id="screenings">
+				<div>
+					<p>Shadowbox Cinema, Detroit, MI, USA.</p>
+					<p><em>Ouroboros: Music of the Spheres</em></p>
+				</div>
+
+				<div>
+					<p>Kassel Documentary Festival, Kassel, Germany.</p>
+					<p><em>Ouroboros: Music of the Spheres</em></p>
+				</div>
+
+				<div>
+					<p>Grand Detour, Portland, OR,USA.</p> 
+					<p><em>Mysterium Cosmographicum trilogy</em></p>
+				</div>
+
+				<div>
+					<p>Northwest Film Forum, Seattle, WA,USA.</p>
+					<p><em>Mysterium Cosmographicum trilogy</em></p>
+				</div>
+
+				<div>
+					<p>Paradigm Lecture Series, University of the Arts, Philadelphia, PA USA.</p> 
+					<p><em>Mysterium Cosmographicum trilogy</em></p>
+				</div>
+
+				<div>
+					<p>Nightlight, Chapel Hill, NC USA.</p> 
+					<p><em>Mysterium Cosmographicum trilogy</em></p>
+				</div>
+
+				<div>
+					<p>Nohl Fellowship for Individual Artists, UWM Union Theatre, Milwaukee, WI USA.</p> 
+					<p><em>Mysterium Cosmographicum trilogy</em></p>
+				</div>
+
+				<div>
+					<p>Experiments in Cinema 6.3 New Mexico, USA.</p> 
+					<p><em>The Physical Impossibility of Life in the Mind of Someone Dead</em></p>
+				</div>
+
+				<div>
+					<p>What's On is Off, Union Theatre, Milwaukee, WI USA.</p> 
+					<p><em>The Prognosticator</em></p>
+				</div>
+
+				<div>
+					<p>Chicago Underground Film Festival, Chicago, IL USA.</p>
+					<p><em>The Prognosticator</em></p>
+				</div>
+			</div>
+			<div id="video">
+				<p>A selection of excerpts from the inaugural live performance of <em>Mysterium Cosmographicum</em> at the UWM Union Theatre in Milwaukee, WI USA. 5 minutes excerpted from a 90-minute performance.</p>
+				<iframe src="http://player.vimeo.com/video/34542526?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="500" height="375" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+			</div>
+			<div id="distribution">
+				<p><em>Mysterium Cosmographicum</em> is distributed by <a href="http://www.vdb.org/artists/brent-coughenour" target="_blank">Video Data Bank</a>.</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,216 @@
+$backgroundColor: #feb542;
+$backgroundImage: "../images/siteBackground.jpg";
+$backgroundOverlay: "../images/grayscalebackground1copy.png";
+$primaryWidth: 700px;
+$sidebarWidth: 100px;
+$defaultPercent: 20;
+$twitterFont: Muli;
+$linkFont: "Quicksand";
+$listFont: "Muli";
+
+@mixin fullWidthCenter {
+	width: $primaryWidth;
+	margin: 0 auto;
+}
+
+@mixin fontChoice ( $font, $size: 12pt ) {
+	font-family: $font, sans-serif;
+	font-size: $size;
+	font-weight: 400;
+}
+
+@mixin gifDimensions {
+	width: 640px;
+	height: 360px;
+}
+
+@mixin bar ( $fontSize: 14pt) {
+	float: right;
+	height: 25px;
+	margin-left: 30px;
+	p {
+		color: white;
+		@include fontChoice ( $linkFont, 14pt );
+		margin-top: 0px;
+	}		
+}
+/* ===== global ======*/
+.invisible {
+	display: none;
+}
+
+/* ===== page background =====*/
+
+body {
+	background: url($backgroundImage) center;
+}
+
+div#bkd-overlay {
+	background-image: url($backgroundOverlay);
+	min-height: 1200px;
+}
+
+/* ===== header ===== */
+header#header-overlay {
+	min-height: 200px;
+	background: url($backgroundOverlay) bottom left;
+	@include fullWidthCenter;
+}
+
+/* ===== main container ===== */
+section#mainContainer {
+	@include fullWidthCenter;
+
+}
+
+/* ===== navbar ===== */
+nav#navbar {
+	position: relative;
+	width: $primaryWidth;
+	float: left;
+	/*text-align: center;*/
+	/*height: 400px;*/
+	/*background: url('images/yellowtrans.png');*/
+	border-radius: 5px;
+	/*margin-right: 25px;*/
+	/*padding: 10px;*/
+
+	a {
+		text-decoration: none;
+		div.bar {
+			@include bar(15pt);
+			display: inline;
+		}	
+	}
+}
+
+#navbar #projects {
+	float: left;
+}
+
+
+/* ====== main content ===== */
+div#mainContent {
+	@include fullWidthCenter;
+	min-height: 400px;
+	background: url('../images/yellowtrans.png');
+	/*background-color: $backgroundColor;*/
+	text-align: center;
+	border-radius: 5px;
+	float: left;
+	color: white;
+}
+
+/* ===== list ===== */
+.list {
+	font-family: $listFont, sans-serif;
+	text-align: left;
+	margin-left: 20px;
+	padding: 40px 20px;
+	font-size: 12pt;
+	/*line-height: 1ex;*/
+	p {
+		/*font-size: 12pt;*/
+		color: green;
+		margin: 0 20px;
+	}
+	a {
+		text-decoration: none;
+		color: white;
+		&:hover {
+			color: #eecf00;
+		}
+	}
+}
+
+/* ===== gif container and twitter feed ===== */
+#gifImage {
+	background: url("../images/lee-gif2.gif") no-repeat;
+	margin: 20px auto;
+	border-radius: 5px;
+	@include gifDimensions;
+}
+
+.textContainer {
+	position: relative;
+	@include gifDimensions;
+}
+
+#twitter-feed {
+	position: absolute;
+	display: table;
+	@include gifDimensions;
+  @include fontChoice($twitterFont, 50pt);
+	line-height: 40pt;
+}
+
+#twitter-feed p {
+	display: table-cell; 
+  vertical-align: middle; 
+  text-align: justify; 
+}
+
+.trans10 {
+	filter: alpha(opacity= 10);
+	-moz-opacity: .1;
+	opacity: .1;
+}
+
+.trans75 {
+	filter: alpha(opacity= 75);
+	-moz-opacity: .75;
+	opacity: .75;
+}
+
+.trans100 {
+	filter: alpha(opacity= 100);
+	-moz-opacity: 1;
+	opacity: 1;
+}
+
+.font1 {
+  font-family: "Coming Soon";
+}
+
+.font2 {
+  font-family: "Walter Turncoat";
+}
+
+.font3 {
+  font-family: "Delius";
+}
+
+.font4 {
+  font-family: "Reenie Beanie";
+}
+
+.font5 {
+  font-family: "Muli";
+}
+
+.font6 {
+  font-family: "Sue Ellen Francisco";
+}
+
+
+
+.font8 {
+  font-family: "Almendra Display";
+}
+
+.font9 {
+  font-family: "Quicksand";
+}
+
+.font10 {
+  font-family: "Londrina Sketch";
+}
+
+.font11 {
+  font-family: "Bubbler One";
+}
+
+/*p a{
+  font-size: 30pt;
+  line-height: 30pt
+}*/
