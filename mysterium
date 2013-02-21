@@ -28,19 +28,19 @@
 	<div id="nav">
 		<ul>
 			<li>
-				<a href="#">Description</a>
+				<a href="#" data-value="#description">Description</a>
 			</li>
 			<li>
-				<a href="#">Mike Hoolboom essay</a>
+				<a href="#" data-value="#essay" class="trans75">Mike Hoolboom essay</a>
 			</li>
 			<li>
-				<a href="#">Screenings</a>
+				<a href="#" data-value="#screenings" class="trans75">Screenings</a>
 			</li>
 			<li>
-				<a href="#">Live Video Excerpts</a>
+				<a href="#" data-value="#video" class="trans75">Live Video Excerpts</a>
 			</li>
 			<li>
-				<a href="#">Distribution</a>
+				<a href="#" data-value="#distribution" class="trans75">Distribution</a>
 			</li>
 		</ul>
 	</div>
@@ -49,24 +49,24 @@
 		<div id="leftContent">
 			<ul id="chapterNav">
 				<li>
-					<a href="prognosticator">Chapter 1: The Prognosticator</a>
+					<a href="prognosticator" class="trans75">Chapter 1: The Prognosticator</a>
 				</li>
 				<li>
-					<a href="impossibility">Chapter 2: The Physical Impossibility of Life in the Mind of Someone Dead</a>
+					<a href="impossibility" class="trans75">Chapter 2: The Physical Impossibility of Life in the Mind of Someone Dead</a>
 				</li>
 				<li>
-					<a href="ouroboros">Chapter 3: Ouroboros: Music of the Spheres</a>
+					<a href="ouroboros" class="trans75">Chapter 3: Ouroboros: Music of the Spheres</a>
 				</li>
 				<li>
-					<a href="index.html">Back to projects</a>
+					<a href="index.html" class="trans75">Back to projects</a>
 				</li>
 			</ul>
 		</div>	
 		<div id="rightContent">
 			<div id="description">
 				<p><em>Mysterium Cosmographicum</em> – a comedy in three parts<br>
-					live video performance, approximately 90 minutes
-					2011</p>
+					live video performance, approximately 90 minutes,
+					2012</p>
 
 				<p>It has been said that the manufacturing industry in the United States has declined precipitously. Automobile factories, steel mills, textile plants have closed, their activities shipped offshore to more pollute-able climes, environments conducive to cheaper labor. Mysterium Cosmographicum, a 3-part video essay and performance incorporating materials culled from music videos, documentaries, movies, YouTube and other sources from the cultural zeitgeist, argues against this assertion, suggesting that manufacturing is indeed alive and well in the United States, the world's leading exporter of emotional catharsis.</p>
 
@@ -75,20 +75,20 @@
 				<p><em>"As an internet trolling, black-metal-loving, post-suburbanite, Brent Coughenour scrapes out the media entrails of a godless digital culture, looking for signs of what might have been named sacred, but that today appears as hacker code or masculine brio templates . . . . Call it a science fiction dystopia of the present. A ghost of a protest still shaking its rattle deep inside the machine, offering the disused or under-looked traditions of the avant-garde as a way out of the endless feedback loop that appears as a parody of infinity. Transcendence may be a thing of the past, but not dissent. Turn on, tune in, and keep cutting. There are many ways left to say no."</em> – Mike Hoolboom</p>
 			</div>
 			<div id="essay">
-				<p>from the catalog for the Fall 2011 Mary Nohl Fellowship For Individual Artists exhibition</p>
+				<p><em>From the catalog for the Fall 2011 Mary Nohl Fellowship For Individual Artists exhibition</em></p>
 
-				<p>My Big Fat Avant-Garde Movie: Notes on Brent Coughenour’s Mysterium Cosmographicum</p>
+				<p>My Big Fat Avant-Garde Movie: Notes on Brent Coughenour’s <em>Mysterium Cosmographicum</em></p>
 
 				<p>Every kind of making can be found today, and often in great abundance. There are roomfuls of new genres, or genre hybrids, like diary fictional essays, or cold wave post-op nature scans. And yet. There are some makers whose work defies even these increasingly elastic categories. Call it outsider art made by those in the know. Hoser formalism. The prime example may be Milwaukee’s Brent Coughenour.</p>
 
 				<p>Johannes Kepler published an astronomy book under the title Mysterium Cosmographicum back in 1596, and roughly translated it means “Cosmic Mystery” or “The Secret of the World.” He imagined that math could define the underlying order of the universe; it was at once an expression of divine will, and an instrument by which we apprehend and understand that will. As an internet trolling, black-metal-loving, post-suburbanite, Brent scrapes out the media entrails of a godless digital culture, looking for signs of what might have been named sacred, but that today appears as hacker code or masculine brio templates.</p>
 
-				<p>The Prognosticator (or, We Are All Pythagoreans Now) is part science fair project, part avant-showroom display. It takes up thorny questions of creativity, inquiring into the relations between nature and culture. Or between imagination and math. Hysterical anti-computer tirades (“It’s the new golden calf”) rub shoulders with a doctor who claims that music’s divine harmonics are medicine, his original talking head replaced with a devil’s face. Are computers the new face of spiritual longing? Its systems and programs devised to channel every human effort? Colour flicker fields, planetary orbits, and musical computer code present themselves in a succession of vignettes. The movie closes with an extended shot showing the entrance to a building with three doors on display. Two are locked, and these two are invariably tried, before the many visitors finally open the last door. It’s as if we’re watching a science experiment play out. The system works all right, unfortunately all it demonstrates is the system itself working.</p>
+				<p><em>The Prognosticator (or, We Are All Pythagoreans Now)</em> is part science fair project, part avant-showroom display. It takes up thorny questions of creativity, inquiring into the relations between nature and culture. Or between imagination and math. Hysterical anti-computer tirades (“It’s the new golden calf”) rub shoulders with a doctor who claims that music’s divine harmonics are medicine, his original talking head replaced with a devil’s face. Are computers the new face of spiritual longing? Its systems and programs devised to channel every human effort? Colour flicker fields, planetary orbits, and musical computer code present themselves in a succession of vignettes. The movie closes with an extended shot showing the entrance to a building with three doors on display. Two are locked, and these two are invariably tried, before the many visitors finally open the last door. It’s as if we’re watching a science experiment play out. The system works all right, unfortunately all it demonstrates is the system itself working.</p>
 
 
-				<p>The Physical Impossibility of Life in the Mind of Someone Dead turns around Badfinger’s endless chart topper Without You. Penned by a pair of musicians with girlfriend distress, and relegated to the back end of an early 70s record, it was recovered by no fewer than 180 artists who turned it into a reliable hit machine. But the cost of success proved too much for the men who wrote “I can’t live, if living is without you,” and both writers committed suicide within a decade of the song’s initial delivery. Coughenour lays out this tragedy in a series of kitsch maneuvers, reaching for the high notes in a deliriously toxic cocktail of low-brow, mass culture manias.</p> 
+				<p><em>The Physical Impossibility of Life in the Mind of Someone Dead</em> turns around Badfinger’s endless chart topper <em>Without You</em>. Penned by a pair of musicians with girlfriend distress, and relegated to the back end of an early 70s record, it was recovered by no fewer than 180 artists who turned it into a reliable hit machine. But the cost of success proved too much for the men who wrote “I can’t live, if living is without you,” and both writers committed suicide within a decade of the song’s initial delivery. Coughenour lays out this tragedy in a series of kitsch maneuvers, reaching for the high notes in a deliriously toxic cocktail of low-brow, mass culture manias.</p> 
 
-				<p>The Physical Impossibility proceeds in an interruptive, channel surfing mélange of Internet moments, science docs and Hollywood excerpts. It is a sideways essay about masculinity, or at least, a preening, forever ejaculating, heart in my mouth, shouted-out-loud maleness whose feelings (too long deferred or projected onto any girlfriend-mother that happens to be around) can at last be expressed. I feel so bad I feel good. Or else: I’m dying, can’t you see that? Can’t you help me? </p>
+				<p><em>The Physical Impossibility</em> proceeds in an interruptive, channel surfing mélange of Internet moments, science docs and Hollywood excerpts. It is a sideways essay about masculinity, or at least, a preening, forever ejaculating, heart in my mouth, shouted-out-loud maleness whose feelings (too long deferred or projected onto any girlfriend-mother that happens to be around) can at last be expressed. I feel so bad I feel good. Or else: I’m dying, can’t you see that? Can’t you help me? </p>
 
 				<p>How do men appear in Brent’s potpourri of received wisdoms? His sampling of available models offer viral media templates that are predictably lonely, haunted and violent until they reach out of their man-cave and acknowledge that they are sharing the world with another beating heart. If the isolation is a routine, another learned response, so is the breaking of that isolation, hence the prolix use of media avatars. The pictures are us, so why not just reach for the most gruesomely familiar examples and lather up these contact narratives (between lonely detectives and their loving waiting spouses) with full-on kitsch crescendos and oral sequins? John Travolta hugs Joan Allen in a homestead reunion. Tom Cruise hugs a mensch on the street. Sylvester Stallone empties machine gun rounds into a computer-filled warehouse in an ecstasy of auto-erotic release. I am an army of one, forever battling invisible enemies.</p>
 
@@ -100,7 +100,7 @@
 
 				<p>The remorseless mainstream splatter gore, the kitsch sentimentality and overwrought emotions, the larger than life demonstrations of adolescent angst, retuned through an avant lens, offers a withering critique of the options available for masculinity. All of the movie’s dizzying electronics and treatments, in fact, a large part of the project of the avant-garde, are conjured as part of a masculine will to power that is deployed in order to channel excessive and unwanted emotings. Art making, it seems, is just another bullet in Stallone’s clip, a means of discharging anti-social rage and self loathing.</p>
 
-				<p>In the third chapter of his trilogy, Ouroboros: Music of the Spheres, a stuttering digital hilarity assures us that when we laugh, the universe hears us. Or at least it offers a picture of listening, which is nearly the same thing. A computer portal of a human absorbs television rappers hard at work programming public imaginations. Simulated teaching modules, a literalization of the boob tube and algorithm paranoias are meted out in rapid succession as viewer avatars take note.</p>
+				<p>In the third chapter of his trilogy, <em>Ouroboros: Music of the Spheres</em>, a stuttering digital hilarity assures us that when we laugh, the universe hears us. Or at least it offers a picture of listening, which is nearly the same thing. A computer portal of a human absorbs television rappers hard at work programming public imaginations. Simulated teaching modules, a literalization of the boob tube and algorithm paranoias are meted out in rapid succession as viewer avatars take note.</p>
 
 				<p>How does the brain process pictures? What is television, or its bastard child, the computer, actually doing to us? It seems we are engaged in a global experiment that functions like any other religion, requiring adherence and attention, ritual protocols of interactivity, communal simulations, and paradigm-shifting assumptions founded on codes that can be read and redrawn only by an invisible elite. In this curiously reflexive flicker frenzy, Brent holds a digital mirror up to our current obsessions, as the new viral technology of the home computer adopts content from superseded technologies which appear instantly nostalgic: television and movies. These outdated forms have had every narrative hope stripped and repurposed, until what remains are the skeletons of patriarchy, ready to take on new digital flesh. Women are valued only as desirable objects, either physically or emotionally, while men are techno-zombies and self-isolated experts. While the movie’s title announces a “music of the spheres,” this usually refers to planet orbits which were imagined to have a harmonious mathematical interval. But the society of the spectacle has reduced every expressive possibility into digital artifacts waiting to be downloaded. Now there are only screens within screens, as viewers disappear into a virtual universe of borrowed pictures, showing emotions we used to have, offering experiences that were once ours, before the pictures got to them first. What can we do except keeping watching? Even the hippest are only making pictures of this watching. Call it a science fiction dystopia of the present. A ghost of a protest still shaking its rattle deep inside the machine, offering the disused or underlooked traditions of the avant-garde as a way out of the endless feedback loop that appears as a parody of infinity. Transcendence may be a thing of the past, but not dissent. Turn on, tune in, and keep cutting. There are many ways left to say no.</p>
 

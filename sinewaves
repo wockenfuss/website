@@ -10,13 +10,61 @@
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	<script src="http:/ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/jquery-ui.min.js"></script>
-	<!--<script type="text/javascript" src="javascripts/_.js"></script>
-	<link rel="stylesheet" href="stylesheets/_.css" type="text/css" />-->
+	<link rel="stylesheet" href="stylesheets/generic.css" type="text/css" />
 	<!--[if lt IE 9]>
 		<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 </head>
 <body>
+	<div id="sinewaveContent">
+		<div id="nav">
+			<ul>
+				<li>
+					<a href="sinewaves"  class="bold">Live Performance for Sine Waves</a>
+				</li>
+				<li>
+					<a href="indomitable">The Indomitable Human Spirit</a>
+				</li>
+				<li id="short">
+					<a href="index.html" data-value="projects">Projects</a>
+				</li>
+			</ul>
+		</div>
+		<div id="perfContainer">
+			<div id="sidebar">
+				<p>Exercises in live composition exploring the emotional interplay between abstract and concrete which, through the application of cold mathematical analysis and synthesis grafted into the warmth of associative representational imagery, within the collision of technological and emotional manipulation, seek the elusive algorithm of sentiment.</p>
+
+				<p>These works employ a meticulously selected sampling of both stuffily old-fashioned and trendily newfangled strategies culled from the history of audio and video synthesis including--but not limited to--computer vision, phase vocoding, FFT analysis, granular synthesis, filtration, gesture-mapping, and stochastic algorithms.</p>
+
+				<p>Previous Performances:</p>
+				<p>Leap Before You Look, NY, NY, USA<br>
+				Onion City Film and Video Festival, Chicago, IL, USA<br>
+				Bearded Child Film Festival, Minneapolis, MN, USA<br>
+				VAD Festival, Girona, Spain<br>
+				CACIS, Calders, Spain<br>
+				Rotterdam Film Festival, Rotterdam, the Netherlands<br>
+				Light Reading, London, UK<br>
+				Wisconsin Film Festival, Madison, WI, USA<br>
+				Milwaukee Underground Film Festival, Milwaukee, WI, USA<br>
+				Unruly Music, Milwaukee, WI, USA<br>
+				Squeaky Wheel, Buffalo, NY, USA</p>
+			</div>
+			<div id="sinewaveDescription">
+				<div id="title">
+					<h3>(Recording of a) Live Performance for Video, Sine Waves and Samples (2009)</h3>
+					<p>Approx. 30 minutes</p>
+				</div>
+				<div id="synopsis">
+					<p>Sounds culled from a selection of mundane video images diverge onto parallel paths of development and exploration. A tag team grudge match in which visual and auditory frequencies combine forces in a visceral assault on two, mayhap three, of the five senses.</p>
+
+					<p>Certain auditory phenomena only occur at high volume.</p>
+
+					<p>Visuals and audio generated in <a href="http://puredata.info" target="_blank">PureData</a>.</p>
+					<iframe src="http://player.vimeo.com/video/3552564?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="600" height="452" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
 		
 </body>
 </html>

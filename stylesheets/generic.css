@@ -1,0 +1,240 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  position: relative; }
+
+#pityContent {
+  margin: 0;
+  width: 1500px;
+  height: 800px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("../images/pity.jpg") no-repeat top center; }
+
+a {
+  text-decoration: none;
+  color: black; }
+  a:hover {
+    text-decoration: underline; }
+
+ul {
+  list-style: none; }
+
+.bold {
+  font-weight: bold; }
+
+#nav {
+  width: 600px;
+  margin: 100px auto;
+  margin-bottom: 0;
+  height: 30px;
+  text-align: center; }
+  #nav li {
+    width: 100px;
+    float: left; }
+  #nav a {
+    font-family: "Courier New";
+    font-size: 12px; }
+
+#mainContent {
+  width: 600px;
+  margin: 20px auto;
+  color: white;
+  font-family: "Courier New";
+  font-size: 12px; }
+
+#title p, #screenings p {
+  margin: 0; }
+
+#video {
+  display: none; }
+
+#screenings {
+  display: none; }
+
+#mainContent a {
+  color: white; }
+
+#flightContent {
+  background: url("../images/flight.jpg") no-repeat top center;
+  min-height: 100px;
+  width: 600px;
+  margin: auto; }
+
+#flightDescription {
+  /*display: none;*/
+  color: white;
+  padding: 130px 0 20px 0; }
+
+#flightVideo {
+  display: none; }
+
+/*=====Ash =====*/
+#ashContent {
+  margin: 0;
+  width: 1500px;
+  height: 800px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("../images/ash.jpg") no-repeat top left; }
+
+#ashDescription {
+  /*display: none;*/
+  color: black; }
+  #ashDescription div {
+    padding-top: 10px; }
+
+#ashVideo {
+  display: none;
+  color: black; }
+
+/*=====untitled=====*/
+#untitledDescription div {
+  padding-top: 10px; }
+
+#untitledVideo {
+  display: none; }
+
+#untitledContent a {
+  color: white; }
+
+/*=====impossibility=====*/
+#impossibilityContent {
+  margin: 0;
+  width: 1500px;
+  height: 800px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("../images/impossibility.jpg") no-repeat top center; }
+
+#mainContentImp {
+  padding: 30px;
+  background: url("../images/yellowtrans.png");
+  width: 600px;
+  margin: 20px auto;
+  color: white;
+  font-family: "Courier New";
+  font-size: 12px;
+  margin-top: 0;
+  min-height: 300px;
+  color: black; }
+
+#impCatalog, #progCatalog, #ouroborosCatalog {
+  display: none;
+  height: 300px;
+  overflow: auto; }
+
+#impVideo, #progVideo, #ouroborosVideo {
+  display: none; }
+  #impVideo span, #progVideo span, #ouroborosVideo span {
+    margin: 0 100px; }
+
+#progContent {
+  margin: 0;
+  width: 1500px;
+  height: 800px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("../images/prognosticator.jpg") no-repeat center center; }
+
+#impossibilityContent #nav, #progContent #nav, #ouroborosContent #nav {
+  width: 700px; }
+#impossibilityContent li, #progContent li, #ouroborosContent li {
+  width: 150px; }
+#impossibilityContent a, #progContent a, #ouroborosContent a {
+  color: white; }
+
+#progContent #nav {
+  margin-top: 185px; }
+
+#mainContentProg {
+  padding: 30px;
+  background: url("../images/progBackground.png");
+  width: 600px;
+  margin: 20px auto;
+  color: white;
+  font-family: "Courier New";
+  font-size: 12px;
+  margin-top: 0;
+  min-height: 300px;
+  color: white; }
+
+#ouroborosContent {
+  margin: 0;
+  width: 1500px;
+  height: 800px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("../images/ouroboros.jpg") no-repeat top left; }
+
+#mainContentOuroboros {
+  padding: 30px;
+  background-color: #44dcff;
+  width: 600px;
+  margin: 20px auto;
+  color: white;
+  font-family: "Courier New";
+  font-size: 12px;
+  margin-top: 0;
+  min-height: 300px;
+  color: black; }
+
+#sinewaveContent {
+  /*@include fullPage;*/
+  margin-top: -100px;
+  padding: 0;
+  height: 1200px;
+  background: url("../images/perfBackground.jpg") bottom left; }
+  #sinewaveContent #nav {
+    width: 700px;
+    padding-top: 100px;
+    background: url("../images/perfOverlay.png") top center; }
+    #sinewaveContent #nav ul {
+      margin: 0; }
+    #sinewaveContent #nav li {
+      width: 250px; }
+    #sinewaveContent #nav a {
+      /*width: 200px;*/
+      background: black;
+      color: white;
+      padding: 10px;
+      opacity: .8; }
+
+#perfContainer {
+  width: 1200px;
+  margin: 20px auto;
+  /*background: url('../images/perfOverlay.png') bottom center;*/ }
+
+#sidebar {
+  width: 300px;
+  float: left;
+  margin-left: 30px;
+  background: black;
+  color: white;
+  font-family: "Courier New";
+  font-size: 10pt;
+  opacity: .7;
+  padding: 15px; }
+
+#sinewaveContent #nav #short {
+  width: 100px; }
+
+#sinewaveDescription {
+  margin-left: 20px;
+  width: 600px;
+  float: left;
+  background-color: black;
+  color: white;
+  font-family: "Courier New";
+  font-size: 10pt;
+  padding: 20px; }
+  #sinewaveDescription h3 {
+    font-size: 12pt; }
+  #sinewaveDescription a {
+    color: #999; }

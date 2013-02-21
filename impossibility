@@ -10,13 +10,75 @@
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	<script src="http:/ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/jquery-ui.min.js"></script>
-	<!--<script type="text/javascript" src="javascripts/_.js"></script>
-	<link rel="stylesheet" href="stylesheets/_.css" type="text/css" />-->
+	<script type="text/javascript" src="javascripts/generic.js"></script>
+	<link rel="stylesheet" href="stylesheets/generic.css" type="text/css" />
 	<!--[if lt IE 9]>
 		<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 </head>
 <body>
+	<div id="impossibilityContent">
+		<div id="nav">
+			<ul>
+				<li>
+					<a href="#" class="bold" data-value="#impDescription">Synopsis</a>
+				</li>
+				<li>
+					<a href="#" data-value="#impCatalog">Catalog Description</a>
+				</li>
+				<li>
+					<a href="#" data-value="#impVideo">Video</a>
+				</li>
+				<li>
+					<a href="mysterium" data-value="projects">Back</a>
+				</li>
+			</ul>
+		</div>
+		<div id="mainContentImp">
+			<div id="impDescription">
+				<div id="title">
+					<p><em>Mysterium Cosmographicum</em>, chapter 2</p><br>
+					<h3>The Physical Impossibility of Life in the Mind of Someone Dead</h3>
+					<p>Live performance for video, video game controllers and custom-designed software.</p>
+					<p>Approx. 50 minutes.</p>
+				</div>
+				<div id="synopsis">
+					<p>I can’t live if living is without you,<br>
+					he said as his tear-stained cheek glistened in the glare of the klieg lights.<br>
+					Slowly, he tightened his finger around the trigger . . . .</p>
+
+					<p>Live audio generated in PureData. Visuals generated and controlled with OpenFrameworks. Live control captured with Guitar Hero and Wii controllers.</p>
+				</div>
+			</div>
+			<div id="impCatalog">
+				<p><em>"The Physical Impossibility of Life in the Mind of Someone Dead</em> turns around Badfinger’s endless chart topper <em>Without You</em>. Penned by a pair of musicians with girlfriend distress, and relegated to the back end of an early 70s record, it was recovered by no fewer than 180 artists who turned it into a reliable hit machine. But the cost of success proved too much for the men who wrote “I can’t live, if living is without you,” and both writers committed suicide within a decade of the song’s initial delivery. Coughenour lays this glittering tragedy out in a series of kitsch maneuvers, reaching for the high notes in a deliriously toxic cocktail of low brow, mass culture manias. 
+
+				<p><em>The Physical Impossibility</em> . . . proceeds in an interruptive, channel surfing mélange of internet moments, science docs and Hollywood excerpts. It is a sideways essay about masculinity, or at least, a preening, forever ejaculating, heart in my mouth, shouted-out-loud maleness whose feelings (too long deferred or projected onto any girlfriend-mother that happens to be around) can at last be expressed. I feel so bad I feel good. Or else: I am dying, can’t you see that? Can’t you help me? </p>
+
+				<p>How do men appear in Brent’s potpourri of received wisdoms? His sampling of available models offer viral media templates that are predictably lonely, haunted and violent. Until they reach out of their man-cave and acknowledge that they are sharing the world with another beating heart. If the isolation is a shtick, another learned response, so is the breaking of that isolation, hence the prolix use of media avatars. The pictures are us, so why not just reach for the most gruesomely familiar examples and lather up these contact narratives, between those lonely detectives and their loving waiting spouses – with full on kitsch crescendos and oral sequins. John Travolta hugs Joan Allen in a homestead reunion. Tom Cruise hugs a mensch on the street. Sylvester Stallone empties machine gun rounds into a computer-filled warehouse in an ecstasy of auto-erotic release. I am an army of one, forever battling invisible enemies.</p>
+
+				<p>Coughenour returns again and again to Badfinger’s original chorus, which has the two pre-suicide guitarists chirping, “I can’t live,” in an infernal loop. Here is the death drive given shape as oral prophecy, but it is also the kernel of the gloriously shameful too muchness of a hit song that was still waiting to happen. It would take Harry Nilsson’s marzipan orchestra cover version to propel it to the top of the charts, and crucially the chorus would be ratcheted up an octave, the notes held and reveled in, and held some more, until the braying sentimentality was monumentalized so that we could all get down and worship it. Badfinger are figured as a kind of Moses, a prophet who might be able to carry the tune of his people, but who would never arrive at the promised land of his own music.</p>
+
+				<p>In an incongruous segue a nature doc feature about humpback whales - beautifully re-coloured by the artist – tells us that it is only the males that sing, and “Everyone sings the same song.” Could it really be true? Behind our myriad presentation models - as sons and fathers, students and teachers, employees and party goers, drivers and recreation specialists - are we all busy singing variations on the same song? And what is that song saying? According to Brent, the lines are simple enough: I am dying. With every step, every word out of my mouth, every door I open. “I can’t live.” </p>
+
+				<p>YouTube moments are dished up after serving time in Brent’s avant-garde hot house, every pixel ruffled and re-landscaped. Amateur cuties set themselves up in front of their computers, belting out Without You in scenes as carefully rehearsed as any award show preening, their canned sadness and off key warblings lend a reliable lo-fi poignancy via multicultural reflections and bedroom framings. These flickering amateur singers are jammed into digital duets, triads, quartets, all of them held in the same aching note. Sandwiched before and after these cover crooners are vicious clips of castration and axe murders. What are we to do with all of these unwanted feelings? Codify them, follow the examples, allow them to become viral instants relayed via internet chain letter and then replayed in the discomfort of one’s own computer. In these home movie star turns we can follow the mannered tics of a high note taken into the body and then broadcast out again, as part of an interdependent code that Brent extends via abstract colour fields, as if one could unwrap these emotings in a symphony of mood rings. </p>
+
+				<p>The remorseless mainstream splatter gore, the kitsch sentimentality and overwrought emotions, the larger than life demonstrations of adolescent angst, re-tuned through an avant lens, offers a withering critique of the options available for masculinity. The dizzying electronics and treatments, in fact, a large part of the project of the avant-garde, are conjured as part of a masculine will to power that is deployed in order to channel excessive and unwanted emotings. Artmaking, it seems, is just another bullet in Stallone’s clip, a means of discharging anti-social rage and self loathing." 
+				– Mike Hoolboom</p>
+
+				<p><em>excerpted from the catalog for the Fall 2011 Mary Nohl Fellowship exhibition</em></p>
+								
+			</div>
+			<div id="impVideo">
+				<p>A nearly random selection of excerpts culled from the 50-minute duration and smashed together in a pile:  </p>
+				<iframe src="http://player.vimeo.com/video/18133613?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="600" height="450" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+				<p>Control Demo:<br>
+				<span>Projection</span><span>Live Control</span></p>
+				<iframe src="http://player.vimeo.com/video/18131310?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="600" height="225" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+				
+			</div>
+		</div>
+	</div>
 		
 </body>
 </html>

@@ -48,7 +48,6 @@ div {
 }
 
 #description {
-	display: none;
 }
 
 #essay {
@@ -84,6 +83,10 @@ div {
 	display: none;
 }
 
+#distribution {
+	display: none;
+}
+
 #leftContent {
 	float: left;
 	width: 150px;
@@ -95,4 +98,8 @@ div {
 	li {
 		margin-top: 20px;
 	}
+}
+
+.trans75 {
+	opacity: .5;
 }

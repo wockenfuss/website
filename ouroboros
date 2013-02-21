@@ -10,13 +10,53 @@
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	<script src="http:/ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/jquery-ui.min.js"></script>
-	<!--<script type="text/javascript" src="javascripts/_.js"></script>
-	<link rel="stylesheet" href="stylesheets/_.css" type="text/css" />-->
+	<script type="text/javascript" src="javascripts/generic.js"></script>
+	<link rel="stylesheet" href="stylesheets/generic.css" type="text/css" />
 	<!--[if lt IE 9]>
 		<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 </head>
 <body>
+	<div id="ouroborosContent">
+		<div id="nav">
+			<ul>
+				<li>
+					<a href="#" class="bold" data-value="#ouroborosDescription">Synopsis</a>
+				</li>
+				<li>
+					<a href="#" data-value="#ouroborosCatalog">Catalog Description</a>
+				</li>
+				<li>
+					<a href="#" data-value="#ouroborosVideo">Video</a>
+				</li>
+				<li>
+					<a href="mysterium" data-value="projects">Back</a>
+				</li>
+			</ul>
+		</div>
+		<div id="mainContentOuroboros">
+			<div id="ouroborosDescription">
+				<div id="title">
+					<p><em>Mysterium Cosmographicum</em>, chapter 3</p><br>
+					<h3>Ouroboros: Music of the Spheres</h3>
+					<p>Video or live performance, 17 minutes</p>
+				</div>
+				<div id="synopsis">
+					<p>Positing a linear continuum, with "nothing" at one end of the spectrum and "something" at the other, at what point does "nothing" become "something?"</p>
+				</div>
+			</div>
+			<div id="ouroborosCatalog">
+				<p>"In the third chapter of [Brent Coughenour's] trilogy, <em>Ouroboros: Music of the Spheres</em>, a stuttering digital hilarity assures us that when we laugh, the universe hears us. Or at least it offers a picture of listening, which is nearly the same thing. A computer portal of a human absorbs television rappers hard at work programming public imaginations. Simulated teaching modules, a literalization of the boob tube and algorithm paranoias are meted out in rapid succession as viewer avatars take note.</p> 
+
+				<p>How does the brain process pictures? What is television, or its bastard child, the computer, actually doing to us? It seems we are engaged in a global experiment that functions like any other religion, requiring adherence and attention, ritual protocols of interactivity, communal simulations, and paradigm-shifting assumptions founded on codes that can be read and redrawn only by an invisible elite. In this curiously reflexive flicker frenzy, Brent holds a digital mirror up to our current obsessions, as the new viral technology of the home computer adopts content from superseded technologies which appear instantly nostalgic: television and movies. These outdated forms have had every narrative hope stripped and re-purposed, until what remains are the skeletons of patriarchy, ready to take on new digital flesh. Women are valued only as desirable objects, either physically or emotionally, while men are techno-zombies and self-isolated experts. While the movie’s title announces a “music of the spheres,” this usually refers to planet orbits which were imagined to have a harmonious mathematical interval. But the society of the spectacle has reduced every expressive possibility into digital artifacts waiting to be downloaded. Now there are only screens within screens, as viewers disappear into a virtual universe of borrowed pictures, showing emotions we used to have, offering experiences that were once ours, before the pictures got to them first. What can we do except keeping watching? Even the hippest are only making pictures of this watching. Call it a science fiction dystopia of the present. A ghost of a protest still shaking its rattle deep inside the machine, offering the disused or underlooked traditions of the avant-garde as a way out of the endless feedback loop that appears as a parody of infinity. Transcendence may be a thing of the past, but not dissent. Turn on, tune in, and keep cutting. There are many ways left to say no."<br> 
+				- Mike Hoolboom</p>
+				<p><em>excerpted from the catalog for the Fall 2011 Mary Nohl Fellowship exhibition</em></p>
+			</div>
+			<div id="ouroborosVideo">
+				<iframe src="http://player.vimeo.com/video/25910534?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="600" height="450" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+			</div>
+		</div>
+	</div>
 		
 </body>
 </html>

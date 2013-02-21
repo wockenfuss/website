@@ -1,3 +1,5 @@
+/*$linkFont: "Quicksand";*/
+/*$listFont: "Muli";*/
 /* ===== global ======*/
 .invisible {
   display: none; }
@@ -30,7 +32,7 @@ nav#navbar {
   /*text-align: center;*/
   /*height: 400px;*/
   /*background: url('images/yellowtrans.png');*/
-  border-radius: 5px;
+  /*border-radius: 5px;*/
   /*margin-right: 25px;*/
   /*padding: 10px;*/ }
   nav#navbar a {
@@ -38,41 +40,47 @@ nav#navbar {
     nav#navbar a div.bar {
       float: right;
       height: 25px;
-      margin-left: 30px;
+      margin-right: 30px;
       display: inline; }
       nav#navbar a div.bar p {
         color: white;
-        font-family: "Quicksand", sans-serif;
-        font-size: 14pt;
+        font-family: "Courier New", sans-serif;
+        font-size: 10pt;
         font-weight: 400;
         margin-top: 0px; }
 
 #navbar #projects {
-  float: left; }
+  float: left;
+  margin-left: 30px; }
 
+/*
+.subnav {
+	margin-right: 10px;
+}
+*/
 /* ====== main content ===== */
 div#mainContent {
   width: 700px;
   margin: 0 auto;
-  min-height: 400px;
+  /*min-height: 400px;*/
   background: url("../images/yellowtrans.png");
   /*background-color: $backgroundColor;*/
   text-align: center;
-  border-radius: 5px;
+  /*border-radius: 5px;*/
   float: left;
   color: white; }
 
 /* ===== list ===== */
 .list {
-  font-family: "Muli", sans-serif;
+  font-family: "Courier New", sans-serif;
   text-align: left;
   margin-left: 20px;
   padding: 40px 20px;
-  font-size: 12pt;
+  font-size: 10pt;
   /*line-height: 1ex;*/ }
   .list p {
     /*font-size: 12pt;*/
-    color: green;
+    color: #005500;
     margin: 0 20px; }
   .list a {
     text-decoration: none;
@@ -84,7 +92,7 @@ div#mainContent {
 #gifImage {
   background: url("../images/lee-gif2.gif") no-repeat;
   margin: 20px auto;
-  border-radius: 5px;
+  /*border-radius: 5px;*/
   width: 640px;
   height: 360px; }
 

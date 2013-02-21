@@ -1,10 +1,29 @@
 $(document).ready(function() {
-	loadLatestTweet();
+    var cookie = readCookie('visit');
+    if ( cookie === "1" ) {
+        var $button = $('#projects');
+        var $links = $('.subnav');
+        $links.parent().removeClass('invisible');
+        addHover($links, $links.last());
+        $('#gifImage').css('display', 'none');
+        elementFade('#film');
+        $button.children().first().removeClass('trans75');
+        $button.on('click', function(e) {
+            e.preventDefault();
+        });
+    } else {
+        firstVisit();
+    }
+
+});
+
+var firstVisit = function() {
+    loadLatestTweet();
     $mainContent = $('#mainContent');
     addHover('#projects');
-
     $('#projects').on('click', function(e) {
         e.preventDefault();
+        setCookie('visit', '1');
         $(this).off('hover');
         displayCategories(e);
         $(this).children().first().removeClass('trans75');
@@ -12,21 +31,23 @@ $(document).ready(function() {
         $(this).on('click', function(e) {
             e.preventDefault();
         });
-        // return false;
     });
+};
 
+function readCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0;i < ca.length;i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1,c.length);
+        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+    }
+    return null;
+}
 
-
-    // $('.scrollPage').on('click', function() {
-    //     // var elementClicked = $(this).attr("href");
-    //     // var destination = $(elementClicked).offset().top;
-    //     // $("html:not(:animated),body:not(:animated)").animate({ scrollTop: destination-20}, 500 );
-
-    //     $("#gifImage").animate({ top: $('footer').offset().top }, 1000);
-    //     return false;
-    // });
-
-});
+function setCookie(name, value) {
+    document.cookie = escape(name) + "=" + escape(value);
+}
 
 function addHover(element, ignore) {
     $(element).children().addClass('trans75');
@@ -48,9 +69,9 @@ function addHover(element, ignore) {
 //     });
 // }
 
-var displayCategories = function(e) {
+var displayCategories = function() {
     $('#gifImage').fadeOut('slow', function() {
-        elementFade('#web');
+        elementFade('#film');
     });
     var $links = $('.subnav');
     $links.parent().removeClass('invisible');

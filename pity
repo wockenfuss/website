@@ -10,13 +10,77 @@
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	<script src="http:/ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/jquery-ui.min.js"></script>
-	<!--<script type="text/javascript" src="javascripts/_.js"></script>
-	<link rel="stylesheet" href="stylesheets/_.css" type="text/css" />-->
+	<script type="text/javascript" src="javascripts/generic.js"></script>
+	<link rel="stylesheet" href="stylesheets/generic.css" type="text/css" />
 	<!--[if lt IE 9]>
 		<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 </head>
 <body>
+	<div id="pityContent">
+		<div id="nav">
+			<ul>
+				<li>
+					<a href="#" class="bold" data-value="#description">Synopsis</a>
+				</li>
+				<li>
+					<a href="#" data-value="#video">Video</a>
+				</li>
+				<li>
+					<a href="#" data-value="#screenings">Screenings</a>
+				</li>
+				<li>
+					<a href="index.html" data-value="projects">Projects</a>
+				</li>
+			</ul>
+		</div>
+		<div id="mainContent">
+			<div id="description">
+				<div id="title">
+					<p>I Pity the Fool (2007)</p>
+					<p>Super 8 film presented on video</p>
+					<p>Experimental narrative</p> 
+					<p>83 minutes</p>
+				</div>
+				<div id="summary">
+					<p>In an effort to improve its image for the nationwide attention brought to the city by the hosting of the 2006 Super Bowl, the city of Detroit began demolishing long-vacant buildings, hastening the natural slow decay caused by decades of industrial collapse. As the city dismantles itself, clues to its past resurface. Collections of scraps sifted from rubble—an archeology of unanswered questions—combine to tell a surrogate narrative filled with missing pieces and forgotten motives, old letters, photographs, and home movies. Fractured moments occurring on one summer day echo events from thirty years earlier. The day is sunny, but it is humid, and clouds are gathering. It is going to rain.</p>
+
+					<p><em>“Like the pieces of a puzzle, I PITY THE FOOL gradually accrues more elements as it goes on: fragments of narrative combine with other fragments that at first have no obvious connection. As opposed to story-lines in many feature-length films that gradually tie up and resolve their different threads, the focus of the film continues to broaden and expand, becoming more complex, open-ended and mysterious. Undertaking a kind of archaeological search for things nearly recent and long past, the film attempts to re-capture the marginalized and defiantly minor histories of [the city’s] forgotten tenants . . . . I PITY THE FOOL is essential viewing to anyone interested in, among other things, urban space, post-industrial landscapes, psycho-geography, found objects, DIY filmmaking, super 8, experimental narrative, and radical film form.”</em> Luke Sieczek, Northwest Film Forum</p>	
+				</div>
+			</div>
+			<div id="video">
+				<p>Excerpts:</p>
+				<iframe src="http://player.vimeo.com/video/2761734?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="600" height="457" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+			</div>
+			<div id="screenings">
+				<p>Museum of Contemporary Art Detroit (work-in-progress)</p>
+				<p>Union Theatre, Milwaukee, WI, USA</p>
+				<p>Detroit Film Center, Detroit, MI, USA</p>
+				<p>Northwest Film Forum, Seattle, WA, USA</p>
+				<p>Artists’ Television Access, San Francisco, CA, USA</p>
+				<p>Echo Park Film Center, LA, CA, USA</p>
+				<p>Documental Showcase, Santa Monica, CA, USA</p>
+				<p>AS220 Gallery, Provicence, RI, USA</p>
+				<p>Mass Art Film Society, Boston, MA, USA</p>
+				<p>Avant-Garde Film Series, Yale University, New Haven, CT, USA</p>
+				<p>MIX/NYC salon, Manhattan, NY, USA</p>
+				<p>1818 Gallery, Baltimore, MD, USA</p>
+				<p>Ann Arbor Film Festival, Ann Arbor, MI, USA</p>
+				<p>Wisconsin Film Festival, Madison, WI, USA</p>
+				<p>Antimatter Film Festival, Victoria, BC, Canada</p>
+				<p>Filmgruppe Chaos, Kiel, Germany</p>
+				<p>Director’s Lounge Festival, Berlin, Germany</p>
+				<p>D21, Leipzig, Germany</p>
+				<p>Cinema Spoutnik, Geneva, Switzerland</p>
+				<p>Festival Cable#2, Nantes, France</p>
+				<p>Cinema Le Barbizon, Paris, France</p>
+				<p>The Nightingale, Chicago, IL, USA</p>
+				<p>Early Monthly Segments, Toronto, CA</p>
+			</div>
+
+		</div>
+	</div>
+
 		
 </body>
 </html>
