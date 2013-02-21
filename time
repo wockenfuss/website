@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+
+	<title>In Search of Lost Time</title>
+
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http:/ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="javascripts/generic.js"></script>
+	<link rel="stylesheet" href="stylesheets/generic.css" type="text/css" />
+	<!--[if lt IE 9]>
+		<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div id="timeContent">
+		<div id="nav">
+			<ul>
+				<li>
+					<a href="index.html" data-value="projects">Back to projects</a>
+				</li>
+			</ul>
+		</div>
+		<div id="mainContent">
+			<div id="timeDescription">
+				<div id="title">
+					<h1>IN SEARCH OF LOST TIME</h1>
+					<p>4 channels, continuous non-repeating loop (clips are selected through a modified non-repeating random algorithm)</p>
+					<p>2011</p>
+				</div>
+			</div>
+			<div id="_Video">
+				<p>Documentation:</p>
+				<iframe src="http://player.vimeo.com/video/34626608?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="600" height="338" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+				<p>Recording of 4 separate channels:</p>
+				<iframe src="http://player.vimeo.com/video/34625912?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="800" height="151" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+				<p>Single-channel edit:</p>
+				<iframe src="http://player.vimeo.com/video/28549681?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="600" height="338" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+			</div>
+		</div>
+	</div>
+		
+</body>
+</html>

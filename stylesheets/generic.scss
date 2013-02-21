@@ -1,10 +1,8 @@
 @mixin fullPage {
-	margin: 0;
-	width: 1500px;
+	margin-top: -100px;
+	padding-top: 100px;
 	height: 800px;
-	position: absolute;
-	top: 0;
-	left: 0;
+
 }
 
 @mixin contentArea {
@@ -19,7 +17,7 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: black;
-	position: relative;
+	/*position: relative;*/
 }
 #pityContent {
 	@include fullPage;
@@ -160,7 +158,6 @@ ul {
 
 #progContent {
 	@include fullPage;
-
 	background: url('../images/prognosticator.jpg') no-repeat center center;
 }
 
@@ -177,7 +174,7 @@ ul {
 }
 
 #progContent #nav {
-	margin-top: 185px;
+	margin-top: 130px;
 }
 #mainContentProg {
 	padding: 30px;
@@ -265,5 +262,25 @@ ul {
 	a {
 		color: #999;
 	}
+}
+#timeContent {
+	font-family: "Normal";
+	#nav {
+		margin-left: 0;
+		ul {
+			padding-left: 0;
+			margin-left: 0;
+			li {
+				width: 150px;
+				a {
+					color: white;
+				}
+			}
+		} 
+	}
+	#mainContent {
+		margin-left: 17px;
+	} 
+		
 }
 

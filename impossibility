@@ -6,7 +6,7 @@
 
 	<title>Physical Impossibility</title>
 
-	<!-- <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" /> -->
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	<script src="http:/ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/jquery-ui.min.js"></script>
@@ -47,7 +47,7 @@
 					he said as his tear-stained cheek glistened in the glare of the klieg lights.<br>
 					Slowly, he tightened his finger around the trigger . . . .</p>
 
-					<p>Live audio generated in PureData. Visuals generated and controlled with OpenFrameworks. Live control captured with Guitar Hero and Wii controllers.</p>
+					<p>Live audio generated in <a href="http://puredata.info" target="_blank">PureData</a>. Visuals generated and controlled with <a href="http://openframeworks.cc" target="_blank">OpenFrameworks</a>. Live control captured with Guitar Hero and Wii controllers.</p>
 				</div>
 			</div>
 			<div id="impCatalog">
