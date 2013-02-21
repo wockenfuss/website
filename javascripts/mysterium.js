@@ -1,7 +1,9 @@
 $(document).ready(function() {
 	$('#nav a').on('click', function(e) {
-		e.preventDefault();
-		$('#nav a').each(function() {
+			if ( this.dataset.value !== 'projects' ) {
+				e.preventDefault();
+			}
+			$('#nav a').each(function() {
 			$(this).addClass('trans75');
 			$(this.dataset.value).css('display', 'none');
 		});

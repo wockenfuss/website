@@ -23,7 +23,7 @@
 				<li>
 					<a href="#" class="bold" data-value="#ouroborosDescription">Synopsis</a>
 				</li>
-				<li>
+				<li class="long">
 					<a href="#" data-value="#ouroborosCatalog">Catalog Description</a>
 				</li>
 				<li>

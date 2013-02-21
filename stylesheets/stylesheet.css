@@ -45,7 +45,7 @@ nav#navbar {
       nav#navbar a div.bar p {
         color: white;
         font-family: "Courier New", sans-serif;
-        font-size: 10pt;
+        font-size: 12pt;
         font-weight: 400;
         margin-top: 0px; }
 
@@ -76,7 +76,7 @@ div#mainContent {
   text-align: left;
   margin-left: 20px;
   padding: 40px 20px;
-  font-size: 10pt;
+  font-size: 12pt;
   /*line-height: 1ex;*/ }
   .list p {
     /*font-size: 12pt;*/

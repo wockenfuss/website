@@ -7,7 +7,7 @@ body {
 #pityContent {
   margin-top: -100px;
   padding-top: 100px;
-  height: 800px;
+  height: 1200px;
   background: url("../images/pity.jpg") no-repeat top center; }
 
 a {
@@ -29,18 +29,18 @@ ul {
   height: 30px;
   text-align: center; }
   #nav li {
-    width: 100px;
+    width: 120px;
     float: left; }
   #nav a {
     font-family: "Courier New";
-    font-size: 12px; }
+    font-size: 12pt; }
 
 #mainContent {
-  width: 600px;
+  width: 700px;
   margin: 20px auto;
   color: white;
   font-family: "Courier New";
-  font-size: 12px; }
+  font-size: 12pt; }
 
 #title p, #screenings p {
   margin: 0; }
@@ -57,7 +57,7 @@ ul {
 #flightContent {
   background: url("../images/flight.jpg") no-repeat top center;
   min-height: 100px;
-  width: 600px;
+  width: 700px;
   margin: auto; }
 
 #flightDescription {
@@ -76,7 +76,7 @@ ul {
 #ashContent {
   margin-top: -100px;
   padding-top: 100px;
-  height: 800px;
+  height: 1200px;
   background: url("../images/ash.jpg") no-repeat top left; }
 
 #ashDescription {
@@ -103,17 +103,17 @@ ul {
 #impossibilityContent {
   margin-top: -100px;
   padding-top: 100px;
-  height: 800px;
+  height: 1200px;
   background: url("../images/impossibility.jpg") no-repeat top center; }
 
 #mainContentImp {
   padding: 30px;
   background: url("../images/yellowtrans.png");
-  width: 600px;
+  width: 700px;
   margin: 20px auto;
   color: white;
   font-family: "Courier New";
-  font-size: 12px;
+  font-size: 12pt;
   margin-top: 0;
   min-height: 300px;
   color: black; }
@@ -124,34 +124,38 @@ ul {
   overflow: auto; }
 
 #impVideo, #progVideo, #ouroborosVideo {
-  display: none; }
+  display: none;
+  width: 600px;
+  margin: auto; }
   #impVideo span, #progVideo span, #ouroborosVideo span {
     margin: 0 100px; }
 
 #progContent {
   margin-top: -100px;
   padding-top: 100px;
-  height: 800px;
-  background: url("../images/prognosticator.jpg") no-repeat center center; }
+  height: 1200px;
+  background: url("../images/prognosticator.jpg") center center; }
 
 #impossibilityContent #nav, #progContent #nav, #ouroborosContent #nav {
-  width: 700px; }
+  width: 800px; }
 #impossibilityContent li, #progContent li, #ouroborosContent li {
   width: 150px; }
 #impossibilityContent a, #progContent a, #ouroborosContent a {
   color: white; }
+#impossibilityContent .long, #progContent .long, #ouroborosContent .long {
+  width: 210px; }
 
 #progContent #nav {
-  margin-top: 130px; }
+  margin-top: 310px; }
 
 #mainContentProg {
   padding: 30px;
   background: url("../images/progBackground.png");
-  width: 600px;
+  width: 700px;
   margin: 20px auto;
   color: white;
   font-family: "Courier New";
-  font-size: 12px;
+  font-size: 12pt;
   margin-top: 0;
   min-height: 300px;
   color: white; }
@@ -159,17 +163,17 @@ ul {
 #ouroborosContent {
   margin-top: -100px;
   padding-top: 100px;
-  height: 800px;
-  background: url("../images/ouroboros.jpg") no-repeat top left; }
+  height: 1200px;
+  background: url("../images/ouroboros.jpg") top left; }
 
 #mainContentOuroboros {
   padding: 30px;
   background-color: #44dcff;
-  width: 600px;
+  width: 700px;
   margin: 20px auto;
   color: white;
   font-family: "Courier New";
-  font-size: 12px;
+  font-size: 12pt;
   margin-top: 0;
   min-height: 300px;
   color: black; }
@@ -181,13 +185,13 @@ ul {
   height: 1200px;
   background: url("../images/perfBackground.jpg") bottom left; }
   #sinewaveContent #nav {
-    width: 700px;
+    width: 900px;
     padding-top: 100px;
     background: url("../images/perfOverlay.png") top center; }
     #sinewaveContent #nav ul {
       margin: 0; }
     #sinewaveContent #nav li {
-      width: 250px; }
+      width: 330px; }
     #sinewaveContent #nav a {
       /*width: 200px;*/
       background: black;
@@ -207,7 +211,7 @@ ul {
   background: black;
   color: white;
   font-family: "Courier New";
-  font-size: 10pt;
+  font-size: 12pt;
   opacity: .7;
   padding: 15px; }
 
@@ -221,7 +225,7 @@ ul {
   background-color: black;
   color: white;
   font-family: "Courier New";
-  font-size: 10pt;
+  font-size: 12pt;
   padding: 20px; }
   #sinewaveDescription h3 {
     font-size: 12pt; }
@@ -236,7 +240,7 @@ ul {
       padding-left: 0;
       margin-left: 0; }
       #timeContent #nav ul li {
-        width: 150px; }
+        width: 180px; }
         #timeContent #nav ul li a {
           color: white; }
   #timeContent #mainContent {

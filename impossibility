@@ -23,7 +23,7 @@
 				<li>
 					<a href="#" class="bold" data-value="#impDescription">Synopsis</a>
 				</li>
-				<li>
+				<li class="long">
 					<a href="#" data-value="#impCatalog">Catalog Description</a>
 				</li>
 				<li>

@@ -35,6 +35,9 @@
 			<li>
 				<a href="#" data-value="#distribution" class="trans75">Distribution</a>
 			</li>
+			<li>
+				<a href="index.html" class="trans75" data-value="projects">Projects</a>
+			</li>
 		</ul>
 	</div>
 		
@@ -50,9 +53,6 @@
 				<li>
 					<a href="ouroboros" class="trans75">Chapter 3: Ouroboros: Music of the Spheres</a>
 				</li>
-				<li>
-					<a href="index.html" class="trans75">Back to projects</a>
-				</li>
 			</ul>
 		</div>	
 		<div id="rightContent">
@@ -61,7 +61,7 @@
 					live video performance, approximately 90 minutes,
 					2012</p>
 
-				<p>It has been said that the manufacturing industry in the United States has declined precipitously. Automobile factories, steel mills, textile plants have closed, their activities shipped offshore to more pollute-able climes, environments conducive to cheaper labor. Mysterium Cosmographicum, a 3-part video essay and performance incorporating materials culled from music videos, documentaries, movies, YouTube and other sources from the cultural zeitgeist, argues against this assertion, suggesting that manufacturing is indeed alive and well in the United States, the world's leading exporter of emotional catharsis.</p>
+				<p>It has been said that the manufacturing industry in the United States has declined precipitously. Automobile factories, steel mills, textile plants have closed, their activities shipped offshore to more pollute-able climes, environments conducive to cheaper labor. <em>Mysterium Cosmographicum</em>, a 3-part video essay and performance incorporating materials culled from music videos, documentaries, movies, YouTube and other sources from the cultural zeitgeist, argues against this assertion, suggesting that manufacturing is indeed alive and well in the United States, the world's leading exporter of emotional catharsis.</p>
 
 				<p>In this defining work of the Hoser Formalist genre, materials appropriated from the culture industry are flushed through a range of custom-designed software tools, digested and manipulated by video game controllers and rendered into a burbling digital stew exploring the nature of knowledge, belief, delusion, and emotion. "I can't live if living is without you," he said, as his tear-stained cheek glistened in the glare of the klieg lights. Slowly, his finger tightened around the trigger . . . .</p>
 
