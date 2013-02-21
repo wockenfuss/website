@@ -66,6 +66,10 @@ ul {
   padding: 130px 0 20px 0; }
 
 #flightVideo {
+  margin-top: 20px;
+  display: none; }
+
+#flightInstallation {
   display: none; }
 
 /*=====Ash =====*/

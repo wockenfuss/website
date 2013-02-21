@@ -27,6 +27,9 @@
 					<a href="#" data-value="#flightVideo">Video</a>
 				</li>
 				<li>
+					<a href="#" data-value="#flightInstallation">Installation</a>
+				</li>				
+				<li>
 					<a href="index.html" data-value="projects">Projects</a>
 				</li>
 			</ul>
@@ -43,9 +46,16 @@
 					Single-channel composite of two-channel installation.</p> 
 				</div>
 			</div>
-			<div id="flightVideo">
-				<iframe src="http://player.vimeo.com/video/2763698?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="600" height="224" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-			</div>
+
+		</div>
+		<div id="flightVideo">
+			<iframe src="http://player.vimeo.com/video/2763698?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="600" height="224" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+		</div>
+		<div id="flightInstallation">
+			<p>
+				Documentation of two-channel installation for CRT monitors in a dark room:
+			</p>
+			<iframe src="http://player.vimeo.com/video/34916238?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="600" height="443" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 		</div>
 	</div>		
 </body>
