@@ -83,8 +83,14 @@ nav#navbar {
 			@include bar(12pt);
 			display: inline;
 		}	
+		&:hover {
+			div.bar p {
+				color: #eecf00;
+			}
+		}
 	}
 }
+
 
 #navbar #projects {
 	float: left;

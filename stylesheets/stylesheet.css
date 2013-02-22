@@ -48,6 +48,8 @@ nav#navbar {
         font-size: 12pt;
         font-weight: 400;
         margin-top: 0px; }
+    nav#navbar a:hover div.bar p {
+      color: #eecf00; }
 
 #navbar #projects {
   float: left;

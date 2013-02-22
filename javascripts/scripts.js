@@ -4,7 +4,7 @@ $(document).ready(function() {
         var $button = $('#projects');
         var $links = $('.subnav');
         $links.parent().removeClass('invisible');
-        addHover($links, $links.last());
+        setLinkState($links);
         $('#gifImage').css('display', 'none');
         elementFade('#film');
         $button.children().first().removeClass('trans75');
@@ -19,17 +19,15 @@ $(document).ready(function() {
 
 var firstVisit = function() {
     loadLatestTweet();
-    $mainContent = $('#mainContent');
-    addHover('#projects');
-    $('#projects').on('click', function(e) {
+    $target = $('#projects');
+    $target.on('click', function(e) {
         e.preventDefault();
         setCookie('visit', '1');
-        $(this).off('hover');
         displayCategories(e);
         $(this).children().first().removeClass('trans75');
-        $(this).off('click');
-        $(this).on('click', function(e) {
-            e.preventDefault();
+        $(this).off('click')
+            .on('click', function(e) {
+                e.preventDefault();
         });
     });
 };
@@ -40,7 +38,7 @@ function readCookie(name) {
     for(var i=0;i < ca.length;i++) {
         var c = ca[i];
         while (c.charAt(0)==' ') c = c.substring(1,c.length);
-        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+        if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length,c.length);
     }
     return null;
 }
@@ -51,23 +49,21 @@ function setCookie(name, value) {
 
 function addHover(element, ignore) {
     $(element).children().addClass('trans75');
-    $(element).on('hover', function(e) {
-        $(this).children().toggleClass('trans75');
-    })
-    .on('click', function(e) {
+    $(element).on('click', function(e) {
         nextStep(e);
         return false;
     });
-    $(ignore).off('hover')
-        .off('click')
-        .children().removeClass('trans75');
+    $(ignore).off('click')
+        .children().removeClass('trans75')
+        .on('click', function(e) { e.preventDefault(); });
 }
 
-// function enableProjectListeners() {
-//     $('#mainContent a').on('hover', function(e) {
-//         $(e.target).parent().siblings().removeClass('invisible');
-//     });
-// }
+var setLinkState = function() {
+    $('.subnav').on('click', function() {
+        $('.subnav').addClass('trans75');
+        $(this).removeClass('trans75');
+    });
+};
 
 var displayCategories = function() {
     $('#gifImage').fadeOut('slow', function() {
