@@ -17,37 +17,34 @@
 <body>
 	<div id="bkd-overlay">
 		<header id="header-overlay"></header>
-<!-- 		<section id="nav">
-			<ul>
-				<li>
-					<a href="#" id="projects">Projects</a>
-				</li>
-			</ul>
-		</section> -->
-		<section id="mainContainer">
-			<nav id="navbar">
-				<a href="#">
-					<div class="bar" id="projects">
-						<p class="trans75">Projects</p>
-					</div>
-				</a>
-				<a href="#" class="invisible">
-					<div class="bar subnav">
-						<p class="trans75" data-value="#live">Live Performance</p>
-					</div>
-				</a>	
-				<a href="#" class="invisible">
-					<div class="bar subnav">
-						<p class="trans75" data-value="#web">Web</p>
-					</div>
-				</a>	
-				<a href="#" class="invisible">
-					<div class="bar subnav">
-						<p class="trans75" data-value="#film">Film/Video</p>
-					</div>
-				</a>				
+			<section id="mainContainer">
+				<nav id="navbar">
+				<ul>
+					<li class="bar">
+						<a href="#" class="trans75 subnav" data-value="#live">Live Performance</a>
+					</li>
+					<li class="bar">
+						<a href="#" class="trans75 subnav" data-value="#web">Web</a>
+					</li>
+					<li class="bar">
+						<a href="#" class="subnav" data-value="#film">Film/Video</a>
+					</li>
+				</ul>			
 			</nav>
-
+			<nav id="nav">
+				<ul>
+					<li>
+						<a href="#" id="projects" class="trans75 bar">Projects</a>
+					</li>
+					<li>
+						<a href="#" id="bioLink" data-value="#bio" class="trans75 bar">Bio</a>
+					</li>
+					<li>
+						<a href="#" id="contactLink" data-value="#contact" class="trans75 bar">Contact</a>
+					</li>
+				</ul>
+			</nav>
+			
 			<div id="mainContent">
 				<div class="list invisible" id="web">
 					<div>
@@ -102,7 +99,12 @@
 	    			<p>approx. 25 min.</p>
 					</div>
 				</div>
-
+				<div class="invisible" id="bio">
+					<p>Bio.</p>
+				</div>	
+				<div class="invisible" id="contact">
+					<p>contact [at] brentcoughenour [dot] com</p>
+				</div>				
 				<div id="gifImage">
 					<div class="textContainer trans10">
 						<div id="twitter-feed">

@@ -1,56 +1,44 @@
 $(document).ready(function() {
     var cookie = readCookie('visit');
     if ( cookie === "1" ) {
-        var $button = $('#projects');
-        var $links = $('.subnav');
-        $links.parent().removeClass('invisible');
-        setLinkState($links);
-        $('#gifImage').css('display', 'none');
-        elementFade('#film');
-        $button.children().first().removeClass('trans75');
-        $button.on('click', function(e) {
-            e.preventDefault();
-        });
+        defaultDisplayOnReturn();
     } else {
-        firstVisit();
+        defaultDisplayOnFirstVisit();
     }
-
 });
 
-var firstVisit = function() {
+var defaultDisplayOnFirstVisit = function() {
     loadLatestTweet();
-    $target = $('#projects');
-    $target.on('click', function(e) {
-        e.preventDefault();
-        setCookie('visit', '1');
-        displayCategories(e);
-        $(this).children().first().removeClass('trans75');
-        $(this).off('click')
-            .on('click', function(e) {
-                e.preventDefault();
-        });
-    });
+    leftNavListeners();
 };
 
-function readCookie(name) {
-    var nameEQ = name + "=";
-    var ca = document.cookie.split(';');
-    for(var i=0;i < ca.length;i++) {
-        var c = ca[i];
-        while (c.charAt(0)==' ') c = c.substring(1,c.length);
-        if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length,c.length);
-    }
-    return null;
+var defaultDisplayOnReturn = function() {
+    $('#gifImage').css('display', 'none');
+    $('.subnav').fadeIn('fast');
+    $('#projects').removeClass('trans75');
+    $('#film').fadeIn('fast');
+    leftNavListeners();
+    rightNavListeners($('.subnav'), $('.subnav').last().parent());
+};
+
+function leftNavListeners() {
+    $('#nav a').on('click', function(e) {
+        e.preventDefault();
+        setCookie('visit', '1');
+        displayContent(e);
+        $('#nav a').addClass('trans75');
+        $(e.target).removeClass('trans75');
+    });
 }
 
 function setCookie(name, value) {
     document.cookie = escape(name) + "=" + escape(value);
 }
 
-function addHover(element, ignore) {
-    $(element).children().addClass('trans75');
+function rightNavListeners(element, ignore) {
+    $(element).addClass('trans75');
     $(element).on('click', function(e) {
-        nextStep(e);
+        contentForThis(e);
         return false;
     });
     $(ignore).off('click')
@@ -58,41 +46,48 @@ function addHover(element, ignore) {
         .on('click', function(e) { e.preventDefault(); });
 }
 
-var setLinkState = function() {
-    $('.subnav').on('click', function() {
-        $('.subnav').addClass('trans75');
-        $(this).removeClass('trans75');
+var displayContent = function(e) {
+    var fadeInElement;
+    var visible = $('#mainContent').children(':visible');
+    var currentElement = visible || '#gifImage';
+    var target =  e.target.textContent;
+    switch(target)
+    {
+    case "Projects":
+        fadeInElement = '#film';
+        var $links = $('.subnav');
+        $('.subnav').fadeIn('fast');
+        rightNavListeners($links, $links.last().parent());
+        break;
+    case "Bio":
+        fadeInElement = '#bio';
+        $('.subnav').fadeOut('fast');
+        break;
+    case "Contact":
+        fadeInElement = '#contact';
+        $('.subnav').fadeOut('fast');
+        break;
+    default:
+        console.log('problem');
+        break;
+    }
+
+    $(currentElement).fadeOut('fast', function() {
+        $(fadeInElement).fadeIn('fast');
     });
+    
 };
 
-var displayCategories = function() {
-    $('#gifImage').fadeOut('slow', function() {
-        elementFade('#film');
-    });
-    var $links = $('.subnav');
-    $links.parent().removeClass('invisible');
-    addHover($links, $links.last());
-};
-
-var nextStep = function(e) {
+var contentForThis = function(e) {
     var $outFade = $('.list:visible');
-    var $inFade = e.target.getAttribute('data-value');
+    var inFade = e.target.getAttribute('data-value');
     if ( $outFade ) {
         $outFade.fadeOut('fast', function() {
-            elementFade($inFade);
+            $(inFade).fadeIn('fast');
         });
-        addHover($('.subnav'), e.target.parentElement);
+        rightNavListeners($('.subnav'), e.target.parentElement);
     }
 };
-
-function elementFade(element) {
-    var $element = $(element);
-    if ( $element.hasClass('invisible')) {
-        $element.fadeIn('fast');
-    } else {
-        $element.fadeOut('fast');
-    }
-}
 
 String.prototype.parseURL = function() {
     return this.replace(/[A-Za-z]+:\/\/[A-Za-z0-9-_]+\.[A-Za-z0-9-_:%&~\?\/.=]+/g, "");
@@ -104,4 +99,15 @@ function loadLatestTweet(){
         var tweet = data[0].text.parseURL();
         $('#twitter-feed').html('<p>'+tweet+'</p>');
     });
+}
+
+function readCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0;i < ca.length;i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1,c.length);
+        if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length,c.length);
+    }
+    return null;
 }

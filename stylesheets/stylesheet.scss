@@ -1,12 +1,10 @@
 $backgroundColor: #feb542;
 $backgroundImage: "../images/siteBackground.jpg";
 $backgroundOverlay: "../images/grayscalebackground1copy.png";
-$primaryWidth: 700px;
+$primaryWidth: 900px;
 $sidebarWidth: 100px;
 $defaultPercent: 20;
 $twitterFont: Muli;
-/*$linkFont: "Quicksand";*/
-/*$listFont: "Muli";*/
 $linkFont: "Courier New";
 $listFont: "Courier New";
 
@@ -30,11 +28,7 @@ $listFont: "Courier New";
 	float: right;
 	height: 25px;
 	margin-right: 30px;
-	p {
-		color: white;
-		@include fontChoice ( $linkFont, 12pt );
-		margin-top: 0px;
-	}		
+	
 }
 /* ===== global ======*/
 .invisible {
@@ -59,6 +53,19 @@ header#header-overlay {
 	@include fullWidthCenter;
 }
 
+/*===== side nav =====*/
+#nav {
+	width: 150px;
+	float: left;
+	text-align: right;
+	margin-right: 10px;
+	ul {
+		list-style: none;
+		li {
+			margin-bottom: 20px;
+		}
+	}
+}
 /* ===== main container ===== */
 section#mainContainer {
 	@include fullWidthCenter;
@@ -68,62 +75,50 @@ section#mainContainer {
 /* ===== navbar ===== */
 nav#navbar {
 	position: relative;
-	width: $primaryWidth;
+	width: 850px;
 	float: left;
-	/*text-align: center;*/
-	/*height: 400px;*/
-	/*background: url('images/yellowtrans.png');*/
-	/*border-radius: 5px;*/
-	/*margin-right: 25px;*/
-	/*padding: 10px;*/
-
-	a {
-		text-decoration: none;
-		div.bar {
-			@include bar(12pt);
-			display: inline;
-		}	
-		&:hover {
-			div.bar p {
-				color: #eecf00;
-			}
-		}
+	li.bar {
+		@include bar(12pt);
+		display: inline;
+	}
+	.subnav {
+		/*visibility: hidden;*/
+		display: none;
 	}
 }
-
-
-#navbar #projects {
+a {
+	text-decoration: none;
+	&:hover {
+		color: #eecf00;
+	}
+	color: white;
+	@include fontChoice ( $linkFont, 12pt );
+	margin-top: 0px;
+}			
+/*#navbar #projects {
 	float: left;
 	margin-left: 30px;
-}
-/*
-.subnav {
-	margin-right: 10px;
-}
-*/
+}*/
 
 /* ====== main content ===== */
 div#mainContent {
-	@include fullWidthCenter;
-	/*min-height: 400px;*/
+	font-family: $listFont, sans-serif;
+	margin: 0 auto;
+	width: 700px;
 	background: url('../images/yellowtrans.png');
-	/*background-color: $backgroundColor;*/
 	text-align: center;
-	/*border-radius: 5px;*/
 	float: left;
 	color: white;
+	min-height: 200px;
 }
 
 /* ===== list ===== */
 .list {
-	font-family: $listFont, sans-serif;
 	text-align: left;
 	margin-left: 20px;
 	padding: 40px 20px;
 	font-size: 12pt;
-	/*line-height: 1ex;*/
 	p {
-		/*font-size: 12pt;*/
 		color: #005500;
 		margin: 0 20px;
 	}
@@ -140,7 +135,6 @@ div#mainContent {
 #gifImage {
 	background: url("../images/lee-gif2.gif") no-repeat;
 	margin: 20px auto;
-	/*border-radius: 5px;*/
 	@include gifDimensions;
 }
 
@@ -173,10 +167,4 @@ div#mainContent {
 	filter: alpha(opacity= 75);
 	-moz-opacity: .75;
 	opacity: .75;
-}
-
-.trans100 {
-	filter: alpha(opacity= 100);
-	-moz-opacity: 1;
-	opacity: 1;
 }
