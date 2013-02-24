@@ -5,6 +5,12 @@ $(document).ready(function() {
     } else {
         defaultDisplayOnFirstVisit();
     }
+
+    $(window).scroll(function () {
+        var offset = -($(window).scrollTop());
+        $('#mainContainer').css('margin-top', offset/2 );
+       // console.log(("You've scrolled " + $(window).scrollTop() + " pixels"));
+    });
 });
 
 var defaultDisplayOnFirstVisit = function() {

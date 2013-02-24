@@ -12,4 +12,12 @@ $(document).ready(function() {
 
 		$(element).fadeIn('fast');
 	});
+
+	var topOffset = parseInt($('#nav').css('margin-top'), 10);
+	$(window).scroll(function () {
+      var offset = -($(window).scrollTop()) + topOffset;
+      $('#nav').css('margin-top', offset );
+  });
 });
+
+

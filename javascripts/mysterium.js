@@ -11,4 +11,11 @@ $(document).ready(function() {
 		var element = this.dataset.value;
 		$(element).fadeIn('fast');
 	});
+
+	$(window).scroll(function () {
+		var offset = -($(window).scrollTop()) + 420;
+		$('#nav').css('margin-top', offset/2 );
+	});
 });
+
+
