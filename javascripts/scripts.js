@@ -7,10 +7,11 @@ $(document).ready(function() {
     }
 
     $(window).scroll(function () {
-        var offset = -($(window).scrollTop());
-        $('#mainContainer').css('margin-top', offset/2 );
-       // console.log(("You've scrolled " + $(window).scrollTop() + " pixels"));
-    });
+      var scrollValue = -($(window).scrollTop());
+      $('#bkd-overlay').css('margin-top', scrollValue);
+      $('#mainContainer').css('margin-top', scrollValue);
+
+  });
 });
 
 var defaultDisplayOnFirstVisit = function() {
@@ -21,6 +22,7 @@ var defaultDisplayOnFirstVisit = function() {
 var defaultDisplayOnReturn = function() {
     $('#gifImage').css('display', 'none');
     $('.subnav').fadeIn('fast');
+    $('#nav a').removeClass('invisible');
     $('#projects').removeClass('trans75');
     $('#film').fadeIn('fast');
     leftNavListeners();
@@ -32,7 +34,8 @@ function leftNavListeners() {
         e.preventDefault();
         setCookie('visit', '1');
         displayContent(e);
-        $('#nav a').addClass('trans75');
+        $('#nav a').removeClass('invisible')
+            .addClass('trans75');
         $(e.target).removeClass('trans75');
     });
 }

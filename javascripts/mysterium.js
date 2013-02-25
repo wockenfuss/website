@@ -12,10 +12,22 @@ $(document).ready(function() {
 		$(element).fadeIn('fast');
 	});
 
-	$(window).scroll(function () {
-		var offset = -($(window).scrollTop()) + 420;
-		$('#nav').css('margin-top', offset/2 );
-	});
+
+	// var topOffset = parseInt($('#rightContent').css('margin-top'), 10);
+
+	// $(window).scroll(function () {
+	// 	// var offset = -($(window).scrollTop()) + 120;
+	// 	// $('#mainContent').css('margin-top', offset/2 );
+
+	// 	console.log(topOffset);
+	// 	$(window).scroll(function () {
+ //      var offset = -($(window).scrollTop()) + topOffset + 100;
+ //      console.log($(window).scrollTop());
+ //      $('#rightContent').css('margin-top', offset );
+ //  	});
+	// });
+
+
 });
 
 

@@ -1,0 +1,24 @@
+body {
+	background: url("../images/siteBackground.jpg");
+	height: 2000px;
+}
+
+#bkd-overlay {
+	background: url("../images/grayscalebackground1copy.png");
+	height: 2000px;
+}
+
+#header-overlay {
+	background: url("../images/grayscalebackground1copy.png") bottom left;
+	height: 200px;	
+	width: 700px;
+	margin: 0 auto;
+}
+
+#mainContainer {
+	background: url('../images/yellowtrans.png');
+	height: 400px;
+	width: 700px;
+	margin: 0 auto;
+	margin-top: 400px;
+}

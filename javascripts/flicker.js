@@ -1,6 +1,7 @@
 $(document).ready(function() {
 	var toggle = changeBackground();
 	var interval = Math.floor(Math.random() * 20) + 20;
+	console.log(interval);
 	setInterval(toggle, interval );
 });
 
