@@ -120,3 +120,4 @@ function readCookie(name) {
     }
     return null;
 }
+

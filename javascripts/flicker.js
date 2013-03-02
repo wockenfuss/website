@@ -1,8 +1,20 @@
 $(document).ready(function() {
-	var toggle = changeBackground();
-	var interval = Math.floor(Math.random() * 20) + 20;
-	console.log(interval);
-	setInterval(toggle, interval );
+	var currentInterval, frameRate, toggle;
+
+	$(document).on('keypress', function(e) {
+		code = (e.keyCode ? e.keyCode : e.which);
+		if (code === 32) {
+			clearInterval(currentInterval);
+			frameRate = Math.floor(Math.random() * 20) + 20;
+			console.log(frameRate);
+			currentInterval = setInterval(toggle, frameRate );
+		}
+	});
+
+	toggle = changeBackground();
+	frameRate = Math.floor(Math.random() * 20) + 20;
+	console.log(frameRate);
+	currentInterval = setInterval(toggle, frameRate );
 });
 
 var changeBackground = function() {
